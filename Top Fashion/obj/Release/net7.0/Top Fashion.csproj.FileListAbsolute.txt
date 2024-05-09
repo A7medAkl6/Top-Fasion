@@ -1,0 +1,92 @@
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\appsettings.Development.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\appsettings.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Top Fashion.staticwebassets.runtime.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Top Fashion.exe
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Top Fashion.deps.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Top Fashion.runtimeconfig.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Top Fashion.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Top Fashion.pdb
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\AutoMapper.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Azure.Core.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Azure.Identity.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Humanizer.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Extensions.Options.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Extensions.Primitives.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Identity.Client.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.OpenApi.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.SqlServer.Server.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Mono.TextTemplating.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Newtonsoft.Json.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\StackExchange.Redis.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Stripe.net.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.CodeDom.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.Drawing.Common.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.Memory.Data.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.Runtime.Caching.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.Security.Permissions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\System.Windows.Extensions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.csproj.AssemblyReference.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.AssemblyInfoInputs.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.AssemblyInfo.cs
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.csproj.CoreCompileInputs.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\staticwebassets.build.json
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\staticwebassets.development.json
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\staticwebassets\msbuild.Top Fashion.Microsoft.AspNetCore.StaticWebAssets.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\staticwebassets\msbuild.build.Top Fashion.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.Top Fashion.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.Top Fashion.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\staticwebassets.pack.json
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\scopedcss\bundle\Top Fashion.styles.css
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fash.096F56CA.Up2Date
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\refint\Top Fashion.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.pdb
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\Top Fashion.genruntimeconfig.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net7.0\ref\Top Fashion.dll

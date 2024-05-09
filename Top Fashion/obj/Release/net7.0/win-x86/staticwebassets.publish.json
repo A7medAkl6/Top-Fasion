@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "bYlA8cBWnCNzomgtAXFtyrFwwl1z/9rCFIVArKdZCVA=",
+  "Source": "Top Fashion",
+  "BasePath": "_content/Top Fashion",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Top Fashion\\wwwroot",
+      "Source": "Top Fashion",
+      "ContentRoot": "D:\\New folder\\Top Fashion\\Top Fashion\\wwwroot\\",
+      "BasePath": "_content/Top Fashion",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
