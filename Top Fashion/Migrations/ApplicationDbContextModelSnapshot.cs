@@ -17,7 +17,7 @@ namespace Top_Fashion.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.16")
+                .HasAnnotation("ProductVersion", "8.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -190,7 +190,7 @@ namespace Top_Fashion.Migrations
                         .IsUnique()
                         .HasFilter("[AppUserId] IS NOT NULL");
 
-                    b.ToTable("Addresses", (string)null);
+                    b.ToTable("Addresses");
                 });
 
             modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.AppUser", b =>
@@ -276,28 +276,36 @@ namespace Top_Fashion.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<int>("ShopId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.HasIndex("ShopId");
+
+                    b.ToTable("Categories");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
                             Description = "1",
-                            Name = "Category_one"
+                            Name = "Category_one",
+                            ShopId = 1
                         },
                         new
                         {
                             Id = 2,
                             Description = "2",
-                            Name = "Category_two"
+                            Name = "Category_two",
+                            ShopId = 1
                         },
                         new
                         {
                             Id = 3,
                             Description = "3",
-                            Name = "Category_three"
+                            Name = "Category_three",
+                            ShopId = 1
                         });
                 });
 
@@ -323,7 +331,7 @@ namespace Top_Fashion.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DeliveryMethods", (string)null);
+                    b.ToTable("DeliveryMethods");
 
                     b.HasData(
                         new
@@ -387,7 +395,7 @@ namespace Top_Fashion.Migrations
 
                     b.HasIndex("DeliveryMethodId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.Order.OrderItem", b =>
@@ -407,11 +415,14 @@ namespace Top_Fashion.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("Vat")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItems", (string)null);
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.Product", b =>
@@ -438,11 +449,14 @@ namespace Top_Fashion.Migrations
                     b.Property<string>("ProductPicture")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("Vat")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
 
                     b.HasData(
                         new
@@ -452,7 +466,8 @@ namespace Top_Fashion.Migrations
                             Description = "1",
                             Name = "Product_one",
                             Price = 2000m,
-                            ProductPicture = "https://"
+                            ProductPicture = "https://",
+                            Vat = 10m
                         },
                         new
                         {
@@ -461,7 +476,8 @@ namespace Top_Fashion.Migrations
                             Description = "2",
                             Name = "Product_two",
                             Price = 2000m,
-                            ProductPicture = "https://"
+                            ProductPicture = "https://",
+                            Vat = 20m
                         },
                         new
                         {
@@ -470,7 +486,48 @@ namespace Top_Fashion.Migrations
                             Description = "3",
                             Name = "Product_three",
                             Price = 2000m,
-                            ProductPicture = "https://"
+                            ProductPicture = "https://",
+                            Vat = 30m
+                        });
+                });
+
+            modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.Shop", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Shops");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "1",
+                            Name = "Shop_one"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "2",
+                            Name = "Shop_two"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "3",
+                            Name = "Shop_three"
                         });
                 });
 
@@ -534,13 +591,24 @@ namespace Top_Fashion.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.Category", b =>
+                {
+                    b.HasOne("Top_Fashion.TopFashion.Domain.Entities.Shop", "Shop")
+                        .WithMany("Categories")
+                        .HasForeignKey("ShopId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Shop");
+                });
+
             modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.Order.Order", b =>
                 {
                     b.HasOne("Top_Fashion.TopFashion.Domain.Entities.Order.DeliveryMethod", "DeliveryMethod")
                         .WithMany()
                         .HasForeignKey("DeliveryMethodId");
 
-                    b.OwnsOne("Top_Fashion.TopFashion.Domain.Entities.Order.Order.ShipToAddress#Top_Fashion.TopFashion.Domain.Entities.Order.ShipAddress", "ShipToAddress", b1 =>
+                    b.OwnsOne("Top_Fashion.TopFashion.Domain.Entities.Order.ShipAddress", "ShipToAddress", b1 =>
                         {
                             b1.Property<int>("OrderId")
                                 .HasColumnType("int");
@@ -565,7 +633,7 @@ namespace Top_Fashion.Migrations
 
                             b1.HasKey("OrderId");
 
-                            b1.ToTable("Orders", (string)null);
+                            b1.ToTable("Orders");
 
                             b1.WithOwner()
                                 .HasForeignKey("OrderId");
@@ -583,7 +651,7 @@ namespace Top_Fashion.Migrations
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.OwnsOne("Top_Fashion.TopFashion.Domain.Entities.Order.OrderItem.ProductItemOrderd#Top_Fashion.TopFashion.Domain.Entities.Order.ProductItemOrderd", "ProductItemOrderd", b1 =>
+                    b.OwnsOne("Top_Fashion.TopFashion.Domain.Entities.Order.ProductItemOrderd", "ProductItemOrderd", b1 =>
                         {
                             b1.Property<int>("OrderItemId")
                                 .HasColumnType("int");
@@ -599,7 +667,7 @@ namespace Top_Fashion.Migrations
 
                             b1.HasKey("OrderItemId");
 
-                            b1.ToTable("OrderItems", (string)null);
+                            b1.ToTable("OrderItems");
 
                             b1.WithOwner()
                                 .HasForeignKey("OrderItemId");
@@ -632,6 +700,11 @@ namespace Top_Fashion.Migrations
             modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.Order.Order", b =>
                 {
                     b.Navigation("OrderItems");
+                });
+
+            modelBuilder.Entity("Top_Fashion.TopFashion.Domain.Entities.Shop", b =>
+                {
+                    b.Navigation("Categories");
                 });
 #pragma warning restore 612, 618
         }

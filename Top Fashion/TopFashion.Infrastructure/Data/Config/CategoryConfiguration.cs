@@ -13,9 +13,9 @@ namespace Top_Fashion.TopFashion.Infrastructure.Data.Config
 
             //Seed
             builder.HasData(
-                new Category { Id = 1, Name = "Category_one", Description = "1" },
-                new Category { Id = 2, Name = "Category_two", Description = "2" },
-                new Category { Id = 3, Name = "Category_three", Description = "3" }
+                new Category { Id = 1, Name = "Category_one", Description = "1", ShopId = 1 },
+                new Category { Id = 2, Name = "Category_two", Description = "2", ShopId = 1 },
+                new Category { Id = 3, Name = "Category_three", Description = "3", ShopId = 1 }
                 );
         }
     }

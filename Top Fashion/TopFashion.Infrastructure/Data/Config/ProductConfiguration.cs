@@ -14,9 +14,9 @@ namespace Top_Fashion.TopFashion.Infrastructure.Data.Config
 
             // Seed
             builder.HasData(
-                new Product { Id = 1, Name = "Product_one", Description = "1", Price = 2000, CategoryId = 1, ProductPicture = "https://" },
-                new Product { Id = 2, Name = "Product_two", Description = "2", Price = 2000, CategoryId = 1, ProductPicture = "https://" },
-                new Product { Id = 3, Name = "Product_three", Description = "3", Price = 2000, CategoryId = 1, ProductPicture = "https://" }
+                new Product { Id = 1, Name = "Product_one", Description = "1", Price = 2000,Vat=10, CategoryId = 1, ProductPicture = "https://" },
+                new Product { Id = 2, Name = "Product_two", Description = "2", Price = 2000, Vat = 20, CategoryId = 1, ProductPicture = "https://" },
+                new Product { Id = 3, Name = "Product_three", Description = "3", Price = 2000, Vat = 30, CategoryId = 1, ProductPicture = "https://" }
                 );
 
         }

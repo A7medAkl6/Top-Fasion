@@ -34,8 +34,8 @@ namespace Top_Fashion.TopFashion.Infrastructure.Repositories
             {
                 var productItem = await _uOW.ProductRepository.GetByIdAsync(item.Id);
                 var productItemOrderd = new ProductItemOrderd(productItem.Id, productItem.Name, productItem.ProductPicture);
-                var orderItem = new OrderItem(productItemOrderd, item.Price, item.Quantity);
-
+                var orderItem = new OrderItem(productItemOrderd, item.Price, item.Quantity,item.Vat);
+       
                 items.Add(orderItem);
             }
 
@@ -46,8 +46,8 @@ namespace Top_Fashion.TopFashion.Infrastructure.Repositories
             var deliveryMethod = await _context.DeliveryMethods.Where(x => x.Id == deliveryMethodId)
                                 .FirstOrDefaultAsync();
             //calculate Subtotal
-
-            var subTotal = items.Sum(x => x.Price * x.Quantity);
+            
+            var subTotal = items.Sum(x => (x.Price+(x.Price*x.Vat)) * x.Quantity);
 
             //ceck if order exisit
             var exitingOrder = await _context.Orders.Where(x => x.PaymentIntentId == basket.PaymentIntentId).FirstOrDefaultAsync();

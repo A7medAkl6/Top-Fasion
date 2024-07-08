@@ -34,8 +34,10 @@ namespace Top_Fashion.TopFashion.Infrastructure
 
 
             //configure Idenitty
-            services.AddIdentity<AppUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+            /*services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();*/
+
+            services.AddIdentityApiEndpoints<AppUser>().AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
             services.AddMemoryCache();
             services.AddAuthentication(opt =>

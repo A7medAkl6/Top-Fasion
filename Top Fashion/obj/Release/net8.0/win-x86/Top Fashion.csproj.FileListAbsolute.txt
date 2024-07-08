@@ -1,0 +1,141 @@
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\appsettings.Development.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\appsettings.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Top Fashion.staticwebassets.runtime.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Top Fashion.exe
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Top Fashion.deps.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Top Fashion.runtimeconfig.json
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Top Fashion.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Top Fashion.pdb
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\AutoMapper.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Azure.Core.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Azure.Identity.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Humanizer.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.AspNetCore.OpenApi.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.CodeAnalysis.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.CodeAnalysis.Workspaces.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Data.SqlClient.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Extensions.DependencyModel.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Extensions.Identity.Core.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Extensions.Identity.Stores.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Extensions.Options.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Identity.Client.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Abstractions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Logging.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Protocols.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.IdentityModel.Tokens.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.OpenApi.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.SqlServer.Server.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Win32.SystemEvents.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Mono.TextTemplating.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Newtonsoft.Json.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Pipelines.Sockets.Unofficial.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\StackExchange.Redis.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Stripe.net.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.Swagger.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.CodeDom.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Composition.AttributedModel.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Composition.Convention.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Composition.Hosting.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Composition.Runtime.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Composition.TypedParts.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Configuration.ConfigurationManager.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Drawing.Common.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Memory.Data.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Runtime.Caching.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Security.Permissions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\System.Windows.Extensions.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\cs\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\de\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\es\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\fr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\it\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ja\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ko\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pl\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ru\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\tr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Release\net8.0\win-x86\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.csproj.AssemblyReference.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.AssemblyInfoInputs.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.AssemblyInfo.cs
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.csproj.CoreCompileInputs.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.sourcelink.json
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\staticwebassets.build.json
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\staticwebassets.development.json
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\staticwebassets\msbuild.Top Fashion.Microsoft.AspNetCore.StaticWebAssets.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\staticwebassets\msbuild.build.Top Fashion.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\staticwebassets\msbuild.buildMultiTargeting.Top Fashion.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\staticwebassets\msbuild.buildTransitive.Top Fashion.props
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\staticwebassets.pack.json
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\scopedcss\bundle\Top Fashion.styles.css
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fash.096F56CA.Up2Date
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\refint\Top Fashion.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.pdb
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\Top Fashion.genruntimeconfig.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Release\net8.0\win-x86\ref\Top Fashion.dll

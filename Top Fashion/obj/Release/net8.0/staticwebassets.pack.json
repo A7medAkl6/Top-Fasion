@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\New folder\\Top Fashion\\Top Fashion\\wwwroot\\images\\products3c66cb6e-e64e-43a6-9f6c-61464536b02020850420_50741527_1000.webp",
+      "PackagePath": "staticwebassets\\images\\products3c66cb6e-e64e-43a6-9f6c-61464536b02020850420_50741527_1000.webp"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Top Fashion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Top Fashion.props",
+      "PackagePath": "build\\Top Fashion.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Top Fashion.props",
+      "PackagePath": "buildMultiTargeting\\Top Fashion.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Top Fashion.props",
+      "PackagePath": "buildTransitive\\Top Fashion.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -48,8 +48,8 @@ namespace Top_Fashion.TopFashion.Infrastructure.Repositories
             {
                 query = productParams.Sort switch
                 {
-                    "PriceAsc" => query.OrderBy(x => x.Price).ToList(),
-                    "PriceDesc" => query.OrderByDescending(x => x.Price).ToList(),
+                    "PriceAsc" => query.OrderBy(x => x.Price+((x.Price)*(x.Vat))).ToList(),
+                    "PriceDesc" => query.OrderByDescending(x => x.Price+ ((x.Price) * (x.Vat))).ToList(),
                     _ => query.OrderBy(x => x.Name).ToList(),
                 };
             }

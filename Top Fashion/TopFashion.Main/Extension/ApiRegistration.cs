@@ -35,11 +35,11 @@ namespace Top_Fashion.TopFashion.Main.Extension
             // Enable CORS
             services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy", policy =>
+                options.AddPolicy("AllowAllOrigins", policy =>
                 {
-                    policy.AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .WithOrigins("http://localhost:4200");
+                    policy.AllowAnyOrigin()
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
                 });
             });
             return services;

@@ -149,3 +149,16 @@ D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis
 D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Debug\net8.0\Top Fashion.sourcelink.json
+D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\System.Web.Cors.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\System.Web.Http.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\System.Web.Http.Cors.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\AR\Top Fashion.resources.dll
+D:\New folder\Top Fashion\Top Fashion\bin\Debug\net8.0\En\Top Fashion.resources.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Debug\net8.0\Top_Fashion.Shared.SharedResource.AR.resources
+D:\New folder\Top Fashion\Top Fashion\obj\Debug\net8.0\Top_Fashion.Shared.SharedResource.En.resources
+D:\New folder\Top Fashion\Top Fashion\obj\Debug\net8.0\Top Fashion.csproj.GenerateResource.cache
+D:\New folder\Top Fashion\Top Fashion\obj\Debug\net8.0\AR\Top Fashion.resources.dll
+D:\New folder\Top Fashion\Top Fashion\obj\Debug\net8.0\En\Top Fashion.resources.dll

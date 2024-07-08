@@ -5,5 +5,6 @@ namespace Top_Fashion.TopFashion.Domain.Services
     public interface ITokenServices
     {
         string CreateToken(AppUser appUser);
+        string CreateTokenadmin(AppUser appUser);
     }
 }

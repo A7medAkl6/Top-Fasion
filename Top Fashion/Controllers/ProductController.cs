@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
+using Top_Fashion.Shared;
 using Top_Fashion.TopFashion.Domain.Dtos;
 using Top_Fashion.TopFashion.Domain.Interfaces;
 using Top_Fashion.TopFashion.Domain.Sharing;
@@ -15,10 +17,12 @@ namespace Top_Fashion.Controllers
     {
         private readonly IUnitOfWork _uOW;
         private readonly IMapper _mapper;
-        public ProductController(IUnitOfWork UOW, IMapper mapper)
+        private readonly IStringLocalizer<SharedResource> _stringLocalizer;
+        public ProductController(IUnitOfWork UOW, IMapper mapper, IStringLocalizer<SharedResource> stringLocalizer)
         {
             _uOW = UOW;
             _mapper = mapper;
+            _stringLocalizer= stringLocalizer;
         }
 
 
@@ -44,7 +48,7 @@ namespace Top_Fashion.Controllers
         }
 
         [HttpPost("add-new-product")]
-        public async Task<ActionResult> Post(CreateProductDto productDto)
+        public async Task<ActionResult> Post([FromForm]CreateProductDto productDto)
         {
             try
             {

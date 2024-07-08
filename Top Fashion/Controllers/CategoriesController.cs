@@ -1,9 +1,13 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Top_Fashion.TopFashion.Domain.Dtos;
 using Top_Fashion.TopFashion.Domain.Entities;
 using Top_Fashion.TopFashion.Domain.Interfaces;
+using Top_Fashion.TopFashion.Domain.Sharing;
+using Top_Fashion.TopFashion.Main.Helper;
 
 namespace Top_Fashion.Controllers
 {
@@ -18,6 +22,14 @@ namespace Top_Fashion.Controllers
         {
             _uOW = UWO;
             _mapper = mapper;
+        }
+        [HttpGet("get-all-cats")]
+        public async Task<ActionResult> Get([FromQuery] CategoryParams categoryParams)
+        {
+           
+            var src = await _uOW.CategoryRepository.GetAllAsync(categoryParams);
+            var result = _mapper.Map<IReadOnlyList<CategoryDto>>(src.CategoryDtos);
+            return Ok(new Pagination<CategoryDto>(categoryParams.PageNumber, categoryParams.PageSize, src.TotalCategory, result));
         }
 
         [HttpGet("get-all-categories")]
@@ -62,7 +74,7 @@ namespace Top_Fashion.Controllers
                 return BadRequest($"Not Found Id [{id}]");
             }
         }
-
+        //Authorize (Roles ="Admin")]
         [HttpPost("add-new-category")]
         public async Task<IActionResult> Post(CategoryDto categoryDto)
         {
@@ -88,7 +100,7 @@ namespace Top_Fashion.Controllers
         }
 
         [HttpPut("update-existing-category-by-id")]
-        public async Task<ActionResult> Put(UpdateCategoryDto categoryDto)
+        public async Task<ActionResult> Put(ListingCategoryDto categoryDto)
         {
             try
             {

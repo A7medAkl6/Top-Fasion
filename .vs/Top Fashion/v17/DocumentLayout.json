@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\New folder\\Top Fashion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|d:\\new folder\\top fashion\\top fashion\\topfashion.infrastructure\\infrastructreregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|solutionrelative:top fashion\\topfashion.infrastructure\\infrastructreregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|d:\\new folder\\top fashion\\top fashion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|solutionrelative:top fashion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|d:\\new folder\\top fashion\\top fashion\\topfashion.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|solutionrelative:top fashion\\topfashion.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|d:\\new folder\\top fashion\\top fashion\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE6DEF8-DB97-4C2D-867D-FA6DA9AD4DEE}|Top Fashion\\Top Fashion.csproj|solutionrelative:top fashion\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,45 +13,21 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 368,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\New folder\\Top Fashion\\Top Fashion\\Program.cs",
-              "RelativeDocumentMoniker": "Top Fashion\\Program.cs",
-              "ToolTip": "D:\\New folder\\Top Fashion\\Top Fashion\\Program.cs",
-              "RelativeToolTip": "Top Fashion\\Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:31:26.373Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InfrastructreRegistration.cs",
-              "DocumentMoniker": "D:\\New folder\\Top Fashion\\Top Fashion\\TopFashion.Infrastructure\\InfrastructreRegistration.cs",
-              "RelativeDocumentMoniker": "Top Fashion\\TopFashion.Infrastructure\\InfrastructreRegistration.cs",
-              "ToolTip": "D:\\New folder\\Top Fashion\\Top Fashion\\TopFashion.Infrastructure\\InfrastructreRegistration.cs",
-              "RelativeToolTip": "Top Fashion\\TopFashion.Infrastructure\\InfrastructreRegistration.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAswD0AAAAgAAAA",
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\New folder\\Top Fashion\\Top Fashion\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Top Fashion\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\New folder\\Top Fashion\\Top Fashion\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Top Fashion\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAArwB4AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:30:01.874Z",
+              "WhenOpened": "2024-07-08T04:12:05.393Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\New folder\\Top Fashion\\Top Fashion\\TopFashion.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Top Fashion\\TopFashion.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "D:\\New folder\\Top Fashion\\Top Fashion\\TopFashion.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Top Fashion\\TopFashion.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T10:15:40.59Z"
             }
           ]
         }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Stripe;
+using System.ComponentModel.DataAnnotations;
 
 namespace Top_Fashion.TopFashion.Domain.Dtos
 {
@@ -10,6 +11,7 @@ namespace Top_Fashion.TopFashion.Domain.Dtos
         [Range(1, 9999, ErrorMessage = "Price Limited by {0} and {1}")]
         [RegularExpression(@"[0-9]*\.?[0-9]+", ErrorMessage = "{0} Must Be Number !")]
         public decimal Price { get; set; }
+        public decimal VAT { get; set; }
     }
 
     public class ProductDto : BaseProduct

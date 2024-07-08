@@ -43,6 +43,10 @@ namespace Top_Fashion.TopFashion.Infrastructure.Repositories
                 {
                     item.Price = productItem.Price;
                 }
+                if (item.Vat != productItem.Vat)
+                {
+                    item.Vat = productItem.Vat;
+                }
             }
             var services = new PaymentIntentService();
             PaymentIntent intent;

@@ -18,6 +18,7 @@ namespace Top_Fashion.TopFashion.Infrastructure.Data
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderItem> OrderItems { get; set; }
         public virtual DbSet<DeliveryMethod> DeliveryMethods { get; set; }
+        public virtual DbSet<Shop> Shops { get; set; }
 
         //   Search For configuration
         protected override void OnModelCreating(ModelBuilder modelBuilder)

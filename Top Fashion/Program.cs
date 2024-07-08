@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
-using System;
+using System.Globalization;
+using Top_Fashion.TopFashion.Domain.Entities;
 using Top_Fashion.TopFashion.Domain.Services;
 using Top_Fashion.TopFashion.Infrastructure;
 using Top_Fashion.TopFashion.Infrastructure.Repositories;
@@ -45,31 +47,55 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(i =>
     return ConnectionMultiplexer.Connect(configure);    
    
 });
- 
+
 //configure order Services
 builder.Services.AddScoped<IOrderServices, OrderServices>();
 
 //configure payment getway
 builder.Services.AddScoped<IPaymentServices, PaymentServices>();
 
+builder.Services.AddControllersWithViews();
+builder.Services.AddLocalization(op =>
+{
+    op.ResourcesPath = "";
+});
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    List<CultureInfo> supportedCultures = new List<CultureInfo>
+    {
+        new CultureInfo("en-US"),
+        new CultureInfo("de-DE"),
+        new CultureInfo("fr-FR"),
+        new CultureInfo("ar-EG")
+    };
+    //options.DefaultRequestCulture = new RequestCluture("en-US");
+    options.SupportedCultures = supportedCultures;
+    options.SupportedUICultures = supportedCultures;
+});
+
+
 //Configure Tokens Services
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
+{ 
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
+app.UseRequestLocalization(options.Value);
+
+app.MapIdentityApi<AppUser>();
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseStatusCodePagesWithReExecute("/errors/{0}");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseCors("CorsPolicy");
+app.UseDefaultFiles();
+app.UseCors("AllowAllOrigins");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
 InfrastructreRegistration.InfrastructureConfigMiddleware(app);
 app.Run();

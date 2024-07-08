@@ -66,5 +66,29 @@ namespace Top_Fashion.TopFashion.Infrastructure.Repositories
                         };
                         return Ok(_token);*/
         }
+        public string CreateTokenadmin(AppUser appUser)
+        {
+            var claims = new List<Claim>()
+            {
+                new Claim(JwtRegisteredClaimNames.Email,appUser.Email),
+                new Claim(JwtRegisteredClaimNames.GivenName, appUser.DisplayName),
+                new(ClaimTypes.Role,"Admin")
+            };
+            var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha256Signature);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(claims),
+                Expires = DateTime.Now.AddDays(10),
+                Issuer = _config["Token:Issuer"],
+                SigningCredentials = creds
+
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+
+
+        }
     }
 }

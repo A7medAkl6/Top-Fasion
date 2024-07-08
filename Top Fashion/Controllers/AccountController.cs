@@ -62,7 +62,8 @@ namespace Top_Fashion.Controllers
             {
                 DisplayName = dto.DisplayName,
                 UserName = dto.Email,
-                Email = dto.Email
+                Email = dto.Email,
+                PhoneNumber = dto.PhoneNumber
             };
             var result = await _userManager.CreateAsync(user, dto.Password);
             if (result.Succeeded == false) return BadRequest(new BaseCommonResponse(400));

@@ -18,6 +18,7 @@ namespace Top_Fashion.TopFashion.Infrastructure.Repositories
         public IProductRepository ProductRepository { get; }
 
         public IBasketRepository BasketRepository { get; }
+        public IShopRepository ShopRepository { get; }
 
         public UnitOfWork(ApplicationDbContext context, IMapper mapper, IFileProvider fileProvider,IConnectionMultiplexer redis)
         {
@@ -25,9 +26,10 @@ namespace Top_Fashion.TopFashion.Infrastructure.Repositories
             _mapper = mapper;
             _fileProvider = fileProvider;
             _redis = redis;
-            CategoryRepository = new CategoryRepository(_context);
+            CategoryRepository = new CategoryRepository(_context, _mapper);
             ProductRepository = new ProductRepository(_context, _fileProvider, _mapper);
              BasketRepository = new BasketRepository(_redis);
+            ShopRepository = new ShopRepository(_context);
         }
     }
 }

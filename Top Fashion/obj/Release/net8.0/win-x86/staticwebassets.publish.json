@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "PdXLpvHbUafMjQyF680BKCXDNO1faPeEMgRUzIh1gEI=",
+  "Source": "Top Fashion",
+  "BasePath": "_content/Top Fashion",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Top Fashion\\wwwroot",
+      "Source": "Top Fashion",
+      "ContentRoot": "D:\\New folder\\Top Fashion\\Top Fashion\\wwwroot\\",
+      "BasePath": "_content/Top Fashion",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\New folder\\Top Fashion\\Top Fashion\\wwwroot\\images\\products3c66cb6e-e64e-43a6-9f6c-61464536b02020850420_50741527_1000.webp",
+      "SourceId": "Top Fashion",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\Top Fashion\\Top Fashion\\wwwroot\\",
+      "BasePath": "_content/Top Fashion",
+      "RelativePath": "images/products3c66cb6e-e64e-43a6-9f6c-61464536b02020850420_50741527_1000.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products3c66cb6e-e64e-43a6-9f6c-61464536b02020850420_50741527_1000.webp"
+    }
+  ]
+}
